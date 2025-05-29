@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=KivaCommand
+comment1.params=Command
+comment1.target=KivaCommand(char)
+comment2.params=
+comment2.target=char\ getDirectionKey()
+numComments=3

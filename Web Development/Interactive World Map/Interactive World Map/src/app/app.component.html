@@ -1,0 +1,30 @@
+    <div>
+      <div id="left-column" class="flex justify-center">
+        <div>
+          <app_world_map
+          (svgIdSelected)="selectedSvgId = $event"
+          (capitalSelected)="selectedCapital = $event"
+          (regionSelected)="selectedRegion = $event"
+          (incomeLevelSelected)="selectedIncomeLevel = $event"
+          (longitudeSelected)="selectedLongitude = $event"
+          (latitudeSelected)="selectedLatitude = $event"
+          ></app_world_map>
+        </div>
+      
+        <div id="right-column" class="pt-12">
+          <table>
+            <app_country_info
+            [countryId]="selectedSvgId"
+            [countryCapital]="selectedCapital"
+            [countryRegion]="selectedRegion"
+            [countryIncomeLevel]="selectedIncomeLevel"
+            [countryLongitude]="selectedLongitude"
+            [countryLatitude]="selectedLatitude"
+            ></app_country_info>
+          </table>
+        </div>
+    </div>
+    
+      <footer class="uppercase text-center text-xs tracking-widest fixed top-0 w-full z-20 p-2 md:justify-between">
+        Information Provided by <a href="https://www.worldbank.org/en/home">The World Bank</a> 
+      </footer>

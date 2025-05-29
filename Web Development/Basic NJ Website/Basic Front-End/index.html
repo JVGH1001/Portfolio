@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">	
+	<head>
+		<link rel="stylesheet" href="styles.css">
+		<title>New Jersey</title>
+	</head>
+	<body>
+		<section>
+			<header>
+				<h1>New Jersey</h1>
+				<p>All about NJ</p>
+			</header>
+			<div id="container">
+				<nav id="nav"> <a href="index.html">Home</a> <a href="Trenton.html">Trenton</a> <a href="Vineland.html">Vineland</a> <a href="Millville.html">Millville</a></nav>
+			</div>
+		</section>
+		<article>
+			<img id="image" src="Images/seal.png" alt="New Jersey State Seal" height="200" width="200">
+			<div id="link">
+				<a href="https://www.nj.gov/" target="_blank">New Jersey's Official Website!</a>
+			</div>
+			<ul>
+				<li>Population: 9,288,994</li>
+				<li>Incorporated: December 18, 1787</li>
+				<li>Region: Mid-Atlantic</li>
+				<li>Classification: Urban, Suburban, &amp; rural</li>
+			</ul>
+			<form>
+				<fieldset>
+					<legend>Ask a question!</legend>
+					First Name:<input type="Text" placeholder="First Name">
+					Last Name:<input type="Text" placeholder="Last Name"><br>
+					Email:<input type="Email" id="emailOne" placeholder="your@email.com">
+					Confirm Email:<input type="Email" id="emailTwo" placeholder="your@email.com"><br>
+					Question:<br><textarea cols="30" rows="3" placeholder="Ask anything!"></textarea><br>
+					<input type="submit" onclick="verify()" value="Save Info">
+					<input type="reset" value="Clear form">
+				</fieldset>
+				<script>
+					function verify() {
+						if (document.getElementById("emailOne").value === document.getElementById("emailTwo").value) {
+							alert("Email addresses match")
+						} else {
+							document.getElementById("submit").setAttribute("disabled", "disabled");
+							alert("Email addresses DO NOT match")
+						}
+					}
+				</script>
+			</form>
+		</article>
+		<aside>
+			<p>Nick named The Garden State</p>
+			<p>Biggest City: Newark</p>
+			<p>State Bird: Eastern Goldfinch</p>
+			<p>State Flower: Common Violet</p>
+		</aside>
+	</body>
+</html>

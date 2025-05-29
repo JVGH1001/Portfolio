@@ -1,0 +1,65 @@
+REM Jeffrey VanMeter
+REM 11/13/09
+REM guessing game
+
+REM x - control variable
+REM - yesno$ represents the user's answer to do you want to play and would you like to play again
+REM - guess represents the amount of guesses the user would like to have
+REM - f represents the user's guess for the game
+REM - r represents what guess the user is on
+REM - n$ represents the user's answer to would you like to play again
+
+
+CLS
+start:
+PRINT "Do you want to play?"
+INPUT "Enter yes or no: ", yesno$
+IF UCASE$(yesno$) = "NO" THEN END
+IF LCASE$(yesno$) = "yes" THEN GOTO number
+PRINT
+PRINT "Invalid response. You must choose yes or no."
+PRINT "Press any key to continue"
+DO: LOOP UNTIL INKEY$ <> ""
+PRINT
+GOTO start
+
+number:
+INPUT "How many guesses would you like? (1-15)", guess
+IF guess > 15 OR guess < 1 THEN
+    PRINT "Invalid response. You must choose between 1-15."
+    PRINT "Press any key to continue"
+    DO: LOOP UNTIL INKEY$ <> ""
+    GOTO number
+END IF
+IF guess < 15 OR guess > 1 THEN GOTO c
+
+
+c:
+INPUT "What is your guess? (1-100)", f
+IF f < 1 OR f > 100 THEN
+    PRINT "Invalid response. You must choose a number from 1 to 100."
+    PRINT "Press any key to continue"
+    GOTO c
+END IF
+IF f > 1 OR f < 100 THEN GOTO game
+
+
+game:
+RANDOMIZE TIMER
+x = INT(RND * 100) + 1
+FOR b = 1 TO guess
+    r = b + 1
+    IF f = 200 THEN END
+    IF f = x THEN PRINT "You Win!": INPUT "Would you like to play again?", n$
+    IF f < x THEN PRINT "You're on guess: ": PRINT r: INPUT "Your guess is lower than the computers. Guess again or type 200 to quit", f
+    IF f > x THEN PRINT "You're on guess: ": PRINT r: INPUT "Your guess is geater than the computers. Guess again or type 200 to quit", f
+    IF UCASE$(n$) = "NO" THEN END
+    IF UCASE$(n$) = "YES" THEN GOTO number
+    IF f < 1 OR f > 100 THEN
+        PRINT "Invalid response. You must choose a number from 1 to 100."
+        PRINT "Press any key to continue"
+    END IF
+    DO: LOOP UNTIL INKEY$ <> ""
+NEXT b
+
+END

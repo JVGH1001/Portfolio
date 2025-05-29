@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=ShoppingCart
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ ShoppingCart\ here.\r\n\r\n\ @author\ gusdelact\r\n\ @version\ 0.5\r\n
+comment1.params=
+comment1.target=double\ getTotalCost()
+numComments=2

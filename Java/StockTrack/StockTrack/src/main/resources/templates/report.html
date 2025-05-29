@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sales Report</title>
+</head>
+<body>
+<h2>Products Sold Report</h2>
+<p id="timestamp"></p>
+<script>
+        // Fetch the current time and date
+        const now = new Date();
+        // Format the timestamp (example: "2024-10-19 14:30:00")
+        const formattedTime = now.toISOString().slice(0, 19).replace('T', ' ');
+        document.getElementById('timestamp').innerText = "Report generated at: " + formattedTime + " (TimeZone - UTC)";
+</script>
+<form th:action="@{/report}"></form>
+<br><br>
+<table class="table table-bordered table-striped">
+    <thead class="thead-dark">
+    <tr>
+        <th>Name</th>
+        <th>Price</th>
+        <th>Amount Sold</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="tempProduct : ${products}">
+        <td th:text="${tempProduct.name}">1</td>
+        <td th:text="${tempProduct.price}">1</td>
+        <td th:text="${tempProduct.sold}">1</td>
+    </tr>
+    </tbody>
+</table>
+<a th:href="@{mainscreen}" >StockTrack Main Page</a>
+</body>
+</html>

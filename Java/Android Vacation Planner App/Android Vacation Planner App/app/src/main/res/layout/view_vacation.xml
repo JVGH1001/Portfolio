@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <ScrollView
+        android:id="@+id/vacationScroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:id="@+id/viewVacationExcursions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/vacationTitleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Vacation!"
+        android:textColor="@color/white"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/accommodationHeaderText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="28dp"
+        android:text="Accommodation"
+        android:textColor="#777777"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vacationTitleText" />
+
+    <TextView
+        android:id="@+id/vacationAccommodationText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:text="Accommodation"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/accommodationHeaderText" />
+
+    <TextView
+        android:id="@+id/alertHeaderText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="268dp"
+        android:text="Alert?"
+        android:textColor="#777777"
+        app:layout_constraintBottom_toTopOf="@+id/vacationAccommodationText"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <CheckBox
+        android:id="@+id/vacationAlertBox"
+        android:layout_width="33dp"
+        android:layout_height="22dp"
+        android:checked="false"
+        android:onClick="ClickAlert"
+        app:layout_constraintStart_toStartOf="@+id/alertHeaderText"
+        app:layout_constraintTop_toBottomOf="@+id/alertHeaderText" />
+
+    <TextView
+        android:id="@+id/startDateHeaderText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="24dp"
+        android:text="Start date"
+        android:textColor="#777777"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vacationAccommodationText" />
+
+    <TextView
+        android:id="@+id/vacationStartDateText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:text="Date"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/startDateHeaderText" />
+
+    <TextView
+        android:id="@+id/endDateHeaderText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="252dp"
+        android:layout_marginTop="24dp"
+        android:text="End date"
+        android:textColor="#777777"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vacationAccommodationText" />
+
+    <TextView
+        android:id="@+id/vacationEndDateText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:text="Date"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="@+id/endDateHeaderText"
+        app:layout_constraintTop_toBottomOf="@+id/endDateHeaderText" />
+
+    <Button
+        android:id="@+id/addExcursionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_marginStart="40dp"
+        android:backgroundTint="#009688"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:onClick="ClickAddExcursion"
+        android:text="Add"
+        app:layout_constraintBottom_toBottomOf="@+id/excursionHeaderText"
+        app:layout_constraintStart_toEndOf="@+id/excursionHeaderText" />
+
+    <TextView
+        android:id="@+id/excursionHeaderText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="24dp"
+        android:text="Excursions"
+        android:textColor="#777777"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="@+id/vacationStartDateText"
+        app:layout_constraintTop_toBottomOf="@+id/vacationStartDateText" />
+
+
+    <Button
+        android:id="@+id/deleteButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="72dp"
+        android:backgroundTint="#009688"
+        android:onClick="ClickDelete"
+        android:text="Delete"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/editButton" />
+
+    <Button
+        android:id="@+id/shareButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="12dp"
+        android:backgroundTint="#009688"
+        android:onClick="ClickShare"
+        android:text="Share"
+        app:layout_constraintEnd_toStartOf="@+id/editButton"
+        app:layout_constraintTop_toBottomOf="@+id/vacationScroll" />
+
+    <Button
+        android:id="@+id/editButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="12dp"
+        android:backgroundTint="#009688"
+        android:onClick="ClickEdit"
+        android:text="Edit"
+        app:layout_constraintEnd_toStartOf="@+id/deleteButton"
+        app:layout_constraintTop_toTopOf="@+id/shareButton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Product
+comment0.text=\r\n\ \r\n\r\n\ @author\ gusdelact\r\n\ @version\ 0.5\r\n
+comment1.params=anId\ aType\ aPrice
+comment1.target=Product(java.lang.String,\ java.lang.String,\ double)
+comment1.text=\ \r\n\ constructor\ for\ the\ object\r\n\ and\ this\ construction\ method\ initialize\ the\ properties\ with\ the\r\n\ tree\ arguments\r\n
+numComments=2

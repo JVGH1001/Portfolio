@@ -1,0 +1,3 @@
+﻿  Source.cpp
+C:\Users\vanmetj\source\repos\Calc\Calc\Source.cpp(13,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  Calc.vcxproj -> C:\Users\vanmetj\source\repos\Calc\x64\Debug\Calc.exe

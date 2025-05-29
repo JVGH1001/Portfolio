@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=kivaCommandTest
+comment0.text=\r\n\ Written\ by\:\ Jeffrey\ VanMeter\r\n\ \r\n\ This\ class\ tests\ the\ KivaCommand\ enum\ making\ sure\ commands\ can\ be\ interpreted\ and\ sent\ to\ the\ kiva\r\n\ Methods\ are\ self\ explanatory\ here\r\n
+comment1.params=
+comment1.target=void\ testForward()
+comment2.params=
+comment2.target=void\ testTurnLeft()
+comment3.params=
+comment3.target=void\ testTurnRight()
+comment4.params=
+comment4.target=void\ testTake()
+comment5.params=
+comment5.target=void\ testDrop()
+numComments=6

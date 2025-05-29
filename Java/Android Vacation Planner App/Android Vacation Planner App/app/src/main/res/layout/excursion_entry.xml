@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <TextView
+        android:id="@+id/excursionEntryTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="16dp"
+        android:text="Excursion"
+        android:textColor="#777777"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/viewExcursionEntryButton"
+        android:layout_width="100dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="#009688"
+        android:text="View"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/excursionEntryTitle" />
+
+    <Button
+        android:id="@+id/editExcursionEntryButton"
+        android:layout_width="100dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="8dp"
+        android:backgroundTint="#009688"
+        android:text="Edit"
+        app:layout_constraintStart_toEndOf="@+id/viewExcursionEntryButton"
+        app:layout_constraintTop_toTopOf="@+id/viewExcursionEntryButton" />
+
+    <Button
+        android:id="@+id/deleteExcursionEntryButton"
+        android:layout_width="100dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="8dp"
+        android:backgroundTint="#009688"
+        android:text="Delete"
+        app:layout_constraintStart_toEndOf="@+id/editExcursionEntryButton"
+        app:layout_constraintTop_toTopOf="@+id/editExcursionEntryButton" />
+</androidx.constraintlayout.widget.ConstraintLayout>

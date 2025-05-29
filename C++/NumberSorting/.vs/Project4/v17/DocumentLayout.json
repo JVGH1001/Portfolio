@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vanmetj\\Desktop\\github\\C\u002B\u002B\\NumberSorting\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{78CF32CC-DA92-407D-8045-3B29C9DE4EA3}|Project4\\Project4.vcxproj|C:\\Users\\vanmetj\\Desktop\\github\\C\u002B\u002B\\NumberSorting\\Project4\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{78CF32CC-DA92-407D-8045-3B29C9DE4EA3}|Project4\\Project4.vcxproj|solutionrelative:Project4\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Source.cpp",
+              "DocumentMoniker": "C:\\Users\\vanmetj\\Desktop\\github\\C\u002B\u002B\\NumberSorting\\Project4\\Source.cpp",
+              "RelativeDocumentMoniker": "Project4\\Source.cpp",
+              "ToolTip": "C:\\Users\\vanmetj\\Desktop\\github\\C\u002B\u002B\\NumberSorting\\Project4\\Source.cpp",
+              "RelativeToolTip": "Project4\\Source.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-13T19:30:34.87Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+:root {
+    --accent-color: #FF3B3F;
+    --accent-dark-color: #EF2B2F;
+    --font-color: #892200;
+    --bg-color: #0a6b00;
+}
+
+body {
+    background-color: #808080;
+    font-family: Arial, sans-serif;
+    color: var(--font-color);
+    display: grid;
+    grid-template-columns: 250px auto 250px;
+    grid-template-rows: 60px 100px 150px;
+    grid-template-areas:
+        "head head head"
+        "nav nav nav"
+        "aside article article"
+        "foot foot foot";
+}
+
+h1 {
+    grid-area: head;
+}
+
+nav {
+    grid-area: nav;
+}
+
+article {
+    grid-area: article;
+}
+
+aside {
+    background: goldenrod;
+    grid-area: aside;
+}
+
+a:link {
+    color: var(--font-color);
+}
+
+a:visited {
+    color: var(--font-color);
+}
+
+a:hover {
+    color: var(--accent-color);
+}
+
+a:active {
+    color: var(--accent-color);
+}   
+
+fieldset {
+    height: 175px;
+    width: 500px;
+}
+
+#container {
+    border: solid 2px black;
+    position: relative;
+    height: 40px;
+    width: 250px;
+    left: 5px;
+}
+
+#nav {
+    color: red;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+#image {
+    float: left;
+    margin-right: 20px;
+}
+
+.table {
+    color: #055200;
+    border: dashed 2px #ff0000;    
+}

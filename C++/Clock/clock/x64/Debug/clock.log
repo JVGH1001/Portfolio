@@ -1,0 +1,5 @@
+﻿  Source.cpp
+C:\Users\vanmetj\source\repos\clock\clock\Source.cpp(107,23): warning C4018: '<=': signed/unsigned mismatch
+C:\Users\vanmetj\source\repos\clock\clock\Source.cpp(139,34): warning C4018: '>': signed/unsigned mismatch
+C:\Users\vanmetj\source\repos\clock\clock\Source.cpp(204,13): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  clock.vcxproj -> C:\Users\vanmetj\source\repos\clock\x64\Debug\clock.exe

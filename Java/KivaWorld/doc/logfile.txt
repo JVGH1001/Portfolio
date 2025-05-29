@@ -1,0 +1,45 @@
+Class documentation
+<---- javadoc command: ---->
+C:\Program Files (x86)\BlueJ\jdk\bin\javadoc.exe
+-author
+-version
+-nodeprecated
+-package
+-Xdoclint:none
+-noindex
+-notree
+-nohelp
+-nonavbar
+-source
+1.8
+-classpath
+C:\Program Files (x86)\BlueJ\lib\bluejcore.jar;C:\Program Files (x86)\BlueJ\lib\junit-4.11.jar;C:\Program Files (x86)\BlueJ\lib\hamcrest-core-1.3.jar;C:\Program Files (x86)\BlueJ\lib\lang-stride.jar;C:\Program Files (x86)\BlueJ\lib\userlib\apache-csv.jar;C:\Program Files (x86)\BlueJ\lib\userlib\courserajava.jar;C:\Program Files (x86)\BlueJ\lib\userlib\pi4j-core.jar;C:\Program Files (x86)\BlueJ\lib\userlib\pi4j-device.jar;C:\Program Files (x86)\BlueJ\lib\userlib\pi4j-gpio-extension.jar;C:\Program Files (x86)\BlueJ\lib\userlib\pi4j-service.jar;C:\Users\vanmetj\Desktop\KivaWorld\+libs\KivaWorld-1.0.jar;C:\Users\vanmetj\Desktop\KivaWorld
+-d
+C:\Users\vanmetj\Desktop\KivaWorld\doc
+-encoding
+UTF-8
+-charset
+UTF-8
+C:\Users\vanmetj\Desktop\KivaWorld\Kiva.java
+<---- end of javadoc command ---->
+Loading source file C:\Users\vanmetj\Desktop\KivaWorld\Kiva.java...
+Constructing Javadoc information...
+Standard Doclet version 1.8.0_144
+Building tree for all the packages and classes...
+Generating C:\Users\vanmetj\Desktop\KivaWorld\doc\Kiva.html...
+C:\Users\vanmetj\Desktop\KivaWorld\Kiva.java:23: warning - @param argument "the" is not a parameter name.
+C:\Users\vanmetj\Desktop\KivaWorld\Kiva.java:36: warning - @param argument "the" is not a parameter name.
+C:\Users\vanmetj\Desktop\KivaWorld\Kiva.java:250: warning - @returns is an unknown tag.
+C:\Users\vanmetj\Desktop\KivaWorld\Kiva.java:257: warning - @returns is an unknown tag.
+C:\Users\vanmetj\Desktop\KivaWorld\Kiva.java:264: warning - @returns is an unknown tag.
+C:\Users\vanmetj\Desktop\KivaWorld\Kiva.java:271: warning - @returns is an unknown tag.
+C:\Users\vanmetj\Desktop\KivaWorld\Kiva.java:278: warning - @returns is an unknown tag.
+Generating C:\Users\vanmetj\Desktop\KivaWorld\doc\package-frame.html...
+Generating C:\Users\vanmetj\Desktop\KivaWorld\doc\package-summary.html...
+Generating C:\Users\vanmetj\Desktop\KivaWorld\doc\constant-values.html...
+Building index for all the packages and classes...
+Building index for all classes...
+Generating C:\Users\vanmetj\Desktop\KivaWorld\doc\allclasses-frame.html...
+Generating C:\Users\vanmetj\Desktop\KivaWorld\doc\allclasses-noframe.html...
+Generating C:\Users\vanmetj\Desktop\KivaWorld\doc\index.html...
+7 warnings
