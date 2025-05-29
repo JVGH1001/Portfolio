@@ -1,0 +1,168 @@
+commit e0740c2849f4bbd81a57690a6da10494e9502b35
+Merge: e2f8c5d 7272df9
+Author: VanMeter <vanmetj@amazon.com>
+Date:   Sat Jun 24 11:36:52 2023 -0400
+
+    Fixed the merge conflict by correcting both files in vi editor
+
+commit e2f8c5d599474211c43cda2eebff521d0c3439b7
+Author: VanMeter <vanmetj@amazon.com>
+Date:   Sat Jun 24 11:08:00 2023 -0400
+
+    Added StudentID + course number
+
+commit 7272df9a11d923c6488a7d0261674b5d241090a2
+Author: VanMeter <vanmetj@amazon.com>
+Date:   Sat Jun 24 11:02:56 2023 -0400
+
+    Updated StudentID
+
+commit 81c0f8485318f684af504c9746c9dc37e72962db
+Author: VanMeter <vanmetj@amazon.com>
+Date:   Sat Jun 24 10:52:59 2023 -0400
+
+    Changed readme to include version
+
+commit e85747b79b8d46af16408e30303ce35e553c8eff
+Author: VanMeter <vanmetj@amazon.com>
+Date:   Sat Jun 24 08:30:02 2023 -0400
+
+    Fixed the paragraph tag under fully responsive in services.html, changed the text to purple for Marsha in team.html, added strong and em to mission statement in vision.html
+
+commit 91c9ff52e55bd24edfafadfb10e2b1cc7fc76eca
+Author: Jeffrey VanMeter <jvanm17@wgu.edu>
+Date:   Fri Jun 23 19:33:16 2023 +0000
+
+    Upload New File
+
+commit 2d29625bac52f192791e6c24bbbac43a921733a9
+Author: Jeffrey VanMeter <jvanm17@wgu.edu>
+Date:   Fri Jun 23 19:21:35 2023 +0000
+
+    Upload New File
+
+commit 8a6eba280f80db328cf2b492fffa98290dde5dca
+Author: Jeffrey VanMeter <jvanm17@wgu.edu>
+Date:   Fri Jun 23 19:21:00 2023 +0000
+
+    Upload New File
+
+commit 8c659f157b82d248242846f8feb38f596ff9958f
+Author: Jeffrey VanMeter <jvanm17@wgu.edu>
+Date:   Fri Jun 23 19:20:50 2023 +0000
+
+    Upload New File
+
+commit 2a382ab2cef784f05236322f953010cfb77354f7
+Author: Jeffrey VanMeter <jvanm17@wgu.edu>
+Date:   Fri Jun 23 19:20:39 2023 +0000
+
+    Upload New File
+
+commit 1a632671eaf286489ab0eeeff9bddc4da9df9162
+Author: Jeffrey VanMeter <jvanm17@wgu.edu>
+Date:   Fri Jun 23 19:20:23 2023 +0000
+
+    Upload New File
+
+commit 763b5bf9a01188670681c17a7ca87d3b1a53f2be
+Author: Jeffrey VanMeter <jvanm17@wgu.edu>
+Date:   Fri Jun 23 19:20:11 2023 +0000
+
+    Upload New File
+
+commit 2ef9b3e934f314a618f0bf0b982d9f8a406c87b3
+Author: Jeffrey VanMeter <jvanm17@wgu.edu>
+Date:   Fri Jun 23 19:19:57 2023 +0000
+
+    Upload New File
+
+commit 618c503c46c50ec733ec89d6be4f6c0a988252eb
+Author: Jeffrey VanMeter <jvanm17@wgu.edu>
+Date:   Fri Jun 23 19:19:44 2023 +0000
+
+    Upload New File
+
+commit ccf740d1c2e8670a8628bec298c61fdeee2cede6
+Author: Jeffrey VanMeter <jvanm17@wgu.edu>
+Date:   Fri Jun 23 19:19:05 2023 +0000
+
+    Upload New File
+
+commit 0e2ab18db7c8053ccef717f6b0c03784b5d7a062
+Author: Jeffrey VanMeter <jvanm17@wgu.edu>
+Date:   Fri Jun 23 19:18:47 2023 +0000
+
+    Upload New File
+
+commit 7f016316dcb00da2514b624210889a0900931ce6
+Author: Jeffrey VanMeter <jvanm17@wgu.edu>
+Date:   Fri Jun 23 19:18:31 2023 +0000
+
+    Upload New File
+
+commit c9b62da2dab4e3c71f537e91dfde3ae5ade3bcb2
+Author: Jeffrey VanMeter <jvanm17@wgu.edu>
+Date:   Fri Jun 23 19:18:20 2023 +0000
+
+    Upload New File
+
+commit 72e0e7f26c97b68396014391f2e341fb61fe6310
+Author: Jeffrey VanMeter <jvanm17@wgu.edu>
+Date:   Fri Jun 23 19:18:08 2023 +0000
+
+    Upload New File
+
+commit 7f7d6adaf50b6fbd96337265ea49d3b63552c1b6
+Author: Jeffrey VanMeter <jvanm17@wgu.edu>
+Date:   Fri Jun 23 19:17:50 2023 +0000
+
+    Upload New File
+
+commit 1376efd8b4ff55eeea410979cf406f07450ab242
+Author: Jeffrey VanMeter <jvanm17@wgu.edu>
+Date:   Fri Jun 23 19:17:36 2023 +0000
+
+    Upload New File
+
+commit 6b366ae1c35411d3d1b3cd9312695cc18b255897
+Author: Jeffrey VanMeter <jvanm17@wgu.edu>
+Date:   Fri Jun 23 19:17:23 2023 +0000
+
+    Upload New File
+
+commit 6c9fa1a16123bb1ad14615d5427dfbcc9d271d81
+Author: Jeffrey VanMeter <jvanm17@wgu.edu>
+Date:   Fri Jun 23 19:17:12 2023 +0000
+
+    Upload New File
+
+commit a3e385acd2e4ebc526c02e0543c29eb90e421ec6
+Author: Jeffrey VanMeter <jvanm17@wgu.edu>
+Date:   Fri Jun 23 19:16:56 2023 +0000
+
+    Upload New File
+
+commit 0715b57d629e5e598ece52a30ec185dc5c7ea42a
+Author: Jeffrey VanMeter <jvanm17@wgu.edu>
+Date:   Fri Jun 23 19:16:42 2023 +0000
+
+    Upload New File
+
+commit 4f4e3efb5711c9ac81f63237dc68fd16d9b408f1
+Author: Jeffrey VanMeter <jvanm17@wgu.edu>
+Date:   Fri Jun 23 19:16:26 2023 +0000
+
+    Upload New File
+
+commit 1e8387186ddaa12b281ae03acbe61c84ebd82a17
+Author: Jeffrey VanMeter <jvanm17@wgu.edu>
+Date:   Fri Jun 23 19:16:10 2023 +0000
+
+    Upload New File
+
+commit 7ad507e1a3e1493156090ca0bc44394f9ae51bee
+Author: Jeffrey VanMeter <jvanm17@wgu.edu>
+Date:   Fri Jun 23 19:09:09 2023 +0000
+
+    Initial commit

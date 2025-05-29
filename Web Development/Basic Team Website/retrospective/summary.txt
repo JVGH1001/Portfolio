@@ -1,0 +1,14 @@
+Conflict resolution summary:
+
+The merge conflict was resolved by opening the README.md file in the vi
+editor. I made both files contain the same information then saved
+the changes. After that I added and committed the changes to the repository.
+This resolved the conflict and allowed the change to take place.
+
+
+Changes from part C:
+
+In services.html I fixed the paragraph tag under the Fully Responsive header
+to make the text appear properly on the webpage.
+In team.html I changed the text to purple for Marsha.
+In vision I added strong and em to mission statement.
