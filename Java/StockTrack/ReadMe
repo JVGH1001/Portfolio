@@ -1,1 +1,9 @@
+PROJECT TITLE: StockTrack
+PURPOSE OF PROJECT: Improved version of the online store selling computer parts. This implements access control allowing diffrerent users and different controls/views for users. This project was also packaged into a dockerfile that could be deployed to the cloud for scalability. 
+VERSION or DATE: 2024
+HOW TO START THIS PROJECT: This can be ran in intellij and going to http://localhost:8080/
+Logins: User, admin
 
+Passwords: User123, Admin123
+
+AUTHORS: Jeffrey VanMeter
