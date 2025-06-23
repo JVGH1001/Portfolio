@@ -1,9 +1,50 @@
-PROJECT TITLE: StockTrack
-PURPOSE OF PROJECT: Improved version of the online store selling computer parts. This implements access control allowing diffrerent users and different controls/views for users. This project was also packaged into a dockerfile that could be deployed to the cloud for scalability. 
-VERSION or DATE: 2024
-HOW TO START THIS PROJECT: This can be ran in intellij and going to http://localhost:8080/
-Logins: User, admin
+Overview
 
-Passwords: User123, Admin123
+StockTrack is a full-featured online store designed for selling computer parts. It supports role-based access control, giving different interfaces and permissions to regular users and admins. The application is containerized with Docker for cloud deployment and scalability.
 
-AUTHORS: Jeffrey VanMeter
+Features
+  Browse and purchase computer parts as a regular user
+  Admin dashboard for managing inventory and users
+  Role-based access (User vs Admin views and permissions)
+  Dockerized for easy deployment
+  Web-based interface running on localhost:8080
+
+Tech Stack
+  Java
+  Spring Boot
+  HTML
+  SQL
+  Docker
+  IntelliJ IDEA (for development and testing)
+
+Getting Started
+Requirements:
+
+  Java 17
+  Docker (optional, for containerized deployment)
+  IntelliJ IDEA (or another IDE)
+
+Running Locally
+
+  Clone the repository
+  Open the project in IntelliJ
+  Run the application
+  Visit: http://localhost:8080/
+
+Login Credentials:
+  Role	  Username	  Password
+  User	  User	      User123
+  Admin	  admin	      Admin123
+
+Docker Deployment (Optional)
+
+  docker build -t stocktrack .
+  docker run -p 8080:8080 stocktrack
+
+Then access it at http://localhost:8080/
+
+Author: Jeffrey VanMeter
+
+Notes
+
+    Future plans: add payment processing, shopping cart, new user registration, or cloud database integration.
