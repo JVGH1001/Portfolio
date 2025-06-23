@@ -5,9 +5,6 @@ import java.util.Arrays;
 /**
  * This is the class that controls Kiva's actions. Implement the <code>run()</code>
  * method to deliver the pod and avoid the obstacles.
- *
- * This is starter code that may or may not work. You will need to update the code to
- * complete the project.
  */
 public class RemoteControl {
     KeyboardResource keyboardResource;
@@ -22,9 +19,6 @@ public class RemoteControl {
     /**
      * The controller that directs Kiva's activity. Prompts the user for the floor map
      * to load, displays the map, and asks the user for the commands for Kiva to execute.
-     *
-     * [Here's the method you'll execute from within BlueJ. It may or may not run successfully
-     * as-is, but you'll definitely need to add more to complete the project.]
      */
     public void run() {
         System.out.println("Please select a map file.");
