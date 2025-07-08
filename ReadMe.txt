@@ -1,11 +1,13 @@
 The first three folders also have ReadMe files giving a short description of each project.
 If there are any requests like screenshots or a project exported into a .exe please let me know!
+Any feedback would be greatly appreciated as well.
+
 Most notable / complex
 
 Java
 	Airport Simulation
 	Android Vacation Planner
-	StockTrack
+	StockTrack *
 	Vacation Purchasing
 
 Web Development
